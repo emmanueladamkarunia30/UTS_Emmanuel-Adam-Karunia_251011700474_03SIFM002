@@ -1,58 +1,136 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# 👟 StepUp Sports Shoe Store
 
-## About Laravel
+### Website Toko Sepatu Olahraga Berbasis Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Website katalog sepatu olahraga untuk menampilkan informasi produk, harga, merek, ukuran, dan kategori olahraga.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![Laravel](https://img.shields.io/badge/Laravel-13-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-UI-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+</div>
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 👨‍🎓 Identitas Mahasiswa
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+| Informasi | Keterangan |
+|---|---|
+| Nama | Emmanuel Adam Karunia |
+| NIM | 251011700474 |
+| Kelas | 03SIFM002 |
+| Program Studi | Sistem Informasi |
+| Universitas | Universitas Pamulang |
+| Mata Kuliah | Rekayasa Web |
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+## 📌 Tentang Proyek
 
-## Agentic Development
+**StepUp Sports Shoe Store** merupakan website toko sepatu olahraga yang dikembangkan menggunakan Laravel dan MySQL.
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+Proyek ini dibuat sebagai bagian dari tugas Ujian Tengah Semester (UTS) Rekayasa Web.
 
-```bash
-composer require laravel/boost --dev
+Website dirancang agar pengunjung dapat melihat katalog sepatu olahraga, mengenali kategori produk, serta membaca informasi mengenai toko.
 
-php artisan boost:install
-```
+## ✨ Fitur Website
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+- 🏠 **Home** — halaman utama website.
+- 👟 **Shoes** — menampilkan katalog sepatu olahraga.
+- 🔎 **Detail Sepatu** — menampilkan informasi lengkap produk.
+- 🗂️ **Categories** — halaman kategori sepatu olahraga.
+- ℹ️ **About** — informasi mengenai toko StepUp.
+- 📞 **Contact** — halaman informasi kontak.
 
-## Contributing
+## 🛠️ Teknologi
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- **Backend:** PHP dan Laravel.
+- **Database:** MySQL.
+- **Frontend:** HTML, CSS, dan JavaScript.
+- **Framework UI:** Bootstrap.
+- **Development Environment:** Laragon.
 
-## Code of Conduct
+## 🗄️ Database
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Nama database:
 
-## Security Vulnerabilities
+`db_uts_251011700474`
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Tabel utama:
 
-## License
+- `shoes` — menyimpan informasi produk sepatu olahraga.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 🚀 Cara Menjalankan Proyek
+
+### Persyaratan
+
+Pastikan PHP, Composer, MySQL, dan lingkungan server lokal sudah tersedia.
+
+### Instalasi
+
+1. Clone repository:
+
+   ```bash
+   git clone https://github.com/emmanueladamkarunia30/UTS_Emmanuel-Adam-Karunia_251011700474_03SIFM002.git
+   ```
+
+2. Masuk ke direktori proyek:
+
+   ```bash
+   cd UTS_Emmanuel-Adam-Karunia_251011700474_03SIFM002
+   ```
+
+3. Instal dependensi:
+
+   ```bash
+   composer install
+   ```
+
+4. Salin `.env.example` menjadi `.env` untuk instalasi baru.
+
+5. Buat application key:
+
+   ```bash
+   php artisan key:generate
+   ```
+
+6. Buat database MySQL `db_uts_251011700474` dan sesuaikan konfigurasi database pada `.env`.
+
+7. Jalankan migrasi:
+
+   ```bash
+   php artisan migrate
+   ```
+
+8. Jalankan server:
+
+   ```bash
+   php artisan serve
+   ```
+
+9. Buka browser:
+
+   http://127.0.0.1:8000
+
+> Catatan: File `.env` berisi konfigurasi lokal dan tidak disertakan dalam repository. Jangan menimpa `.env` proyek yang sudah berjalan hanya untuk mengikuti petunjuk instalasi ini.
+
+## 🔗 Repository
+
+[Klik di sini untuk melihat repository GitHub StepUp Sports Shoe Store](https://github.com/emmanueladamkarunia30/UTS_Emmanuel-Adam-Karunia_251011700474_03SIFM002)
+
+## 📷 Dokumentasi
+
+Screenshot halaman website dan tautan video demonstrasi dapat ditambahkan pada bagian ini setelah dokumentasi selesai dibuat.
+
+---
+
+<div align="center">
+
+**StepUp Sports Shoe Store**
+
+Dikembangkan oleh **Emmanuel Adam Karunia**  
+NIM 251011700474 · Kelas 03SIFM002  
+Universitas Pamulang
+
+</div>
