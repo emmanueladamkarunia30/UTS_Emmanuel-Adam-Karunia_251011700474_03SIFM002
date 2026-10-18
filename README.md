@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <div align="center">
 
 # 👟 StepUp Sports Shoe Store
@@ -11,7 +11,7 @@ Website katalog sepatu olahraga untuk menampilkan informasi produk, harga, merek
 ![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-UI-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-=======
+
 @'
 <div align="center">
 
@@ -31,11 +31,11 @@ Website katalog sepatu olahraga yang dikembangkan menggunakan Laravel dan MySQL 
 
 ---
 
-<<<<<<< HEAD
+
 ## 👨‍🎓 Identitas Mahasiswa
-=======
+
 ## Identitas Mahasiswa
->>>>>>> 73567f9 (Update README StepUp Sports Shoe Store)
+ 73567f9 (Update README StepUp Sports Shoe Store)
 
 | Informasi | Keterangan |
 |---|---|
