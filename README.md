@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
 
 # 👟 StepUp Sports Shoe Store
@@ -10,12 +11,31 @@ Website katalog sepatu olahraga untuk menampilkan informasi produk, harga, merek
 ![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-UI-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+=======
+@'
+<div align="center">
+
+# StepUp Sports Shoe Store
+
+### Website Katalog Sepatu Olahraga
+
+Website katalog sepatu olahraga yang dikembangkan menggunakan Laravel dan MySQL untuk memenuhi tugas UTS Rekayasa Web.
+
+![Laravel](https://img.shields.io/badge/Laravel-13-FF2D20?style=for-the-badge&logo=laravel)
+![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge&logo=php)
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-UI-7952B3?style=for-the-badge&logo=bootstrap)
+>>>>>>> 73567f9 (Update README StepUp Sports Shoe Store)
 
 </div>
 
 ---
 
+<<<<<<< HEAD
 ## 👨‍🎓 Identitas Mahasiswa
+=======
+## Identitas Mahasiswa
+>>>>>>> 73567f9 (Update README StepUp Sports Shoe Store)
 
 | Informasi | Keterangan |
 |---|---|
@@ -26,6 +46,7 @@ Website katalog sepatu olahraga untuk menampilkan informasi produk, harga, merek
 | Universitas | Universitas Pamulang |
 | Mata Kuliah | Rekayasa Web |
 
+<<<<<<< HEAD
 ## 📌 Tentang Proyek
 
 **StepUp Sports Shoe Store** merupakan website toko sepatu olahraga yang dikembangkan menggunakan Laravel dan MySQL.
@@ -134,3 +155,42 @@ NIM 251011700474 · Kelas 03SIFM002
 Universitas Pamulang
 
 </div>
+=======
+## Tentang Proyek
+
+StepUp Sports Shoe Store merupakan website katalog sepatu olahraga yang menampilkan informasi produk, merek, harga, ukuran, dan kategori olahraga.
+
+Proyek ini dibuat untuk memenuhi tugas Ujian Tengah Semester mata kuliah Rekayasa Web.
+
+## Fitur Website
+
+- **Home:** halaman utama.
+- **Shoes:** katalog sepatu olahraga.
+- **Detail Sepatu:** informasi produk.
+- **Categories:** halaman kategori.
+- **About:** informasi toko.
+- **Contact:** halaman kontak.
+
+## Teknologi
+
+- PHP
+- Laravel
+- MySQL
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+
+## Database
+
+Nama database: `db_uts_251011700474`
+
+Tabel utama: `shoes`, untuk menyimpan informasi produk sepatu olahraga.
+
+## Cara Menjalankan
+
+1. Clone repository:
+
+   ```bash
+   git clone https://github.com/emmanueladamkarunia30/UTS_Emmanuel-Adam-Karunia_251011700474_03SIFM002.git
+>>>>>>> 73567f9 (Update README StepUp Sports Shoe Store)
